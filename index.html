@@ -55,10 +55,12 @@ nav a:hover{color:var(--primary)}nav a:hover::after{width:100%}
 .nav-cta{padding:.55rem 1.3rem;border:2px solid var(--slate);background:transparent;color:var(--slate);font-size:.8rem;font-weight:600;letter-spacing:.05em;text-decoration:none;border-radius:2px;transition:all .3s}
 .nav-cta:hover{background:var(--primary);color:var(--cream);border-color:var(--primary)}
 
-section{scroll-margin-top:92px;padding:7rem 5%;max-width:1400px;margin:0 auto}
+section{scroll-margin-top:92px;padding:4.2rem 5%;max-width:1400px;margin:0 auto}
 section:first-of-type{margin-top:90px}
-h2{font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--slate);margin-bottom:1.5rem;font-weight:700;position:relative;padding-bottom:.8rem}
+h2{font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--slate);margin-bottom:1.1rem;font-weight:700;position:relative;padding-bottom:.7rem}
 h2::before{content:'';position:absolute;bottom:0;left:0;width:48px;height:3px;background:var(--gold);border-radius:2px}
+.sec-lede{max-width:820px;color:#666;font-size:.95rem;margin-bottom:1.6rem}
+.h2-sub{margin-top:2.6rem}
 h3{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:var(--primary);margin-bottom:.5rem;font-weight:600}
 
 .hero{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;padding-top:2rem}
@@ -76,24 +78,24 @@ h1 em{color:var(--primary);font-style:italic}
 .hero-image{position:relative;overflow:hidden;border-radius:6px;box-shadow:0 20px 50px rgba(107,62,62,.14);aspect-ratio:3/4}
 .hero-image img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
 
-.projects-container{display:grid;grid-template-columns:1fr;gap:2.5rem;margin-top:3rem}
-.project-card{background:white;padding:2.5rem;border-radius:4px;border-top:4px solid var(--primary);box-shadow:0 4px 16px rgba(0,0,0,.05);transition:all .3s}
+.projects-container{display:grid;grid-template-columns:1fr;gap:1.8rem;margin-top:2rem}
+.project-card{background:white;padding:2rem;border-radius:4px;border-top:4px solid var(--primary);box-shadow:0 4px 16px rgba(0,0,0,.05);transition:all .3s}
 .project-card:hover{transform:translateY(-5px);box-shadow:0 16px 40px rgba(107,62,62,.1)}
 .project-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.2rem}
 .project-tag{font-size:.7rem;letter-spacing:.1em;color:var(--gold);font-weight:700;text-transform:uppercase;background:rgba(201,168,118,.1);padding:.35rem .8rem;border-radius:3px}
 .project-meta{font-size:.82rem;color:#aaa;font-weight:500}
 .project-desc{color:#666;margin:1rem 0 1.5rem;line-height:1.75;font-size:.9rem}
-.project-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1.5rem;padding:1.5rem 0;margin:1.5rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.project-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1.2rem;padding:1.2rem 0;margin:1.2rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
 .stat-value{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:700;color:var(--primary)}
 .stat-label{font-size:.72rem;color:#aaa;text-transform:uppercase;letter-spacing:.05em;margin-top:.2rem}
 .project-skills{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.2rem 0}
 .skill-tag{font-size:.78rem;background:rgba(107,62,62,.07);color:var(--primary);padding:.35rem .8rem;border-radius:20px;font-weight:500}
-.project-files{display:flex;gap:1rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--border)}
+.project-files{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid var(--border)}
 .file-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.55rem 1.1rem;border:1px solid var(--border);background:white;color:var(--primary);text-decoration:none;font-size:.82rem;font-weight:600;border-radius:3px;cursor:pointer;transition:all .3s}
 .file-btn:hover{background:var(--light);border-color:var(--primary)}
 
 /* ── GLOBE ── */
-.globe-stage{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:3.5rem;align-items:center;margin:2.5rem 0 0}
+.globe-stage{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:3.5rem;align-items:center;margin:1.8rem 0 0}
 .globe-wrap{position:relative;width:100%;max-width:560px;margin:0 auto 2.2rem;aspect-ratio:1/1}
 .globe-wrap canvas{width:100%;height:100%;max-width:100%;display:block;cursor:grab;touch-action:pan-y}
 .globe-wrap canvas:active{cursor:grabbing}
@@ -122,7 +124,7 @@ h1 em{color:var(--primary);font-style:italic}
 .key-note{font-size:.8rem;color:#a89f98;line-height:1.7;padding-left:1.45rem;border-left:2px solid var(--gold);margin-left:.1rem}
 
 /* ── REFERENCES ── */
-.ref-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:1.8rem;margin-top:2.5rem}
+.ref-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:1.4rem;margin-top:1.8rem}
 .ref-card{
   background:white;border-radius:4px;padding:2.1rem 1.9rem 1.7rem;
   box-shadow:0 4px 16px rgba(0,0,0,.05);border-top:4px solid var(--gold);
@@ -211,7 +213,17 @@ h1 em{color:var(--primary);font-style:italic}
   .ov-grid{grid-template-columns:1fr}
 }
 @media(max-width:700px){
-  .kpi-value{font-size:1.5rem}
+  /* one KPI per row put four tall tiles, about 1,080px, between the button and
+     the first chart. Two per row keeps the figures readable and the scroll short. */
+  .kpi-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem;margin-bottom:1rem}
+  .kpi{padding:.7rem .75rem}
+  .kpi-label{font-size:.63rem;letter-spacing:.04em}
+  .kpi-value{font-size:1.25rem;margin-top:.25rem}
+  .kpi-sub{font-size:.68rem;margin-top:.2rem;line-height:1.4}
+  .ov{padding:.3rem 0 .5rem}
+  .ov-grid{gap:.8rem}
+  .ov-card{padding:.9rem 1rem .8rem}
+  .ov-sub{margin-bottom:.6rem}
 }
 
 /* ── dashboards rendered inline inside a project card ── */
@@ -305,7 +317,7 @@ h1 em{color:var(--primary);font-style:italic}
   .globe-wrap{max-width:420px}
 }
 
-.focus-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;margin-top:2.5rem;align-items:start}
+.focus-grid{display:grid;grid-template-columns:1fr;gap:1.1rem;margin-top:1.8rem;align-items:start}
 /* five cards never divide evenly, so the last row is widened to fill instead of
    leaving an orphan: 3 + 2 on a wide screen, 2 + 2 + 1 wide on a tablet */
 @media(min-width:620px){
@@ -317,7 +329,7 @@ h1 em{color:var(--primary);font-style:italic}
   .focus-card:nth-child(-n+3){grid-column:span 2}
   .focus-card:nth-child(n+4){grid-column:span 3}
 }
-.focus-card{background:white;padding:1.8rem;border-radius:4px;border-left:4px solid var(--gold);cursor:pointer;transition:all .3s;box-shadow:0 3px 12px rgba(0,0,0,.04)}
+.focus-card{background:white;padding:1.5rem;border-radius:4px;border-left:4px solid var(--gold);cursor:pointer;transition:all .3s;box-shadow:0 3px 12px rgba(0,0,0,.04)}
 .focus-card:hover,.focus-card.active{background:var(--light);border-left-color:var(--primary);transform:translateY(-3px);box-shadow:0 8px 24px rgba(107,62,62,.1)}
 .focus-number{font-size:.78rem;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:.3rem}
 .focus-title{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weight:600;color:var(--slate);margin-bottom:.4rem}
@@ -348,10 +360,10 @@ h1 em{color:var(--primary);font-style:italic}
 .pdf-area{width:100%;background:#525659;padding:1.5rem 0;line-height:0}
 .pdf-area embed{display:block;width:88%;max-width:900px;height:920px;margin:0 auto;border:none;box-shadow:0 6px 30px rgba(0,0,0,.35);border-radius:2px}
 
-.mindmap{display:grid;grid-template-columns:1fr;gap:2rem;margin-top:2.5rem;align-items:start}
+.mindmap{display:grid;grid-template-columns:1fr;gap:1.4rem;margin-top:1.8rem;align-items:start}
 @media(min-width:640px){.mindmap{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:1000px){.mindmap{grid-template-columns:repeat(3,minmax(0,1fr))}}
-.skill-cat{background:white;padding:2rem;border-radius:4px;box-shadow:0 4px 14px rgba(0,0,0,.05);border-top:4px solid var(--primary);transition:all .3s}
+.skill-cat{background:white;padding:1.6rem;border-radius:4px;box-shadow:0 4px 14px rgba(0,0,0,.05);border-top:4px solid var(--primary);transition:all .3s}
 .skill-cat:hover{transform:translateY(-5px);box-shadow:0 12px 30px rgba(107,62,62,.1)}
 .skill-cat h4{font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--primary);margin-bottom:1.2rem;font-weight:600}
 .skill-cat ul{list-style:none;display:flex;flex-direction:column;gap:.6rem}
@@ -365,9 +377,9 @@ h1 em{color:var(--primary);font-style:italic}
 .lang-level{font-family:'Cormorant Garamond',serif;font-size:1.9rem;color:var(--primary);font-weight:700;margin-bottom:.3rem}
 .lang-desc{font-size:.75rem;color:#aaa;text-transform:uppercase;letter-spacing:.04em}
 
-.exp-list{margin-top:2.5rem;border-top:1px solid var(--border)}
+.exp-list{margin-top:1.8rem;border-top:1px solid var(--border)}
 .exp-item{display:grid;grid-template-columns:238px minmax(0,1fr);gap:2.2rem;
-  padding:1.8rem 0;border-bottom:1px solid var(--border)}
+  padding:1.3rem 0;border-bottom:1px solid var(--border)}
 .exp-when{font-size:.8rem;color:#9a928c;letter-spacing:.03em;font-variant-numeric:tabular-nums}
 .exp-where{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--primary);
   font-weight:700;margin-top:.25rem;line-height:1.3}
@@ -383,11 +395,11 @@ h1 em{color:var(--primary);font-style:italic}
   .exp-item{grid-template-columns:1fr;gap:.7rem}
   .exp-where{margin-top:0}
 }
-.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:2rem}
-.edu-block{background:white;padding:2rem;border-radius:4px;box-shadow:0 3px 12px rgba(0,0,0,.04);border-left:4px solid var(--gold)}
+.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin-top:1.4rem}
+.edu-block{background:white;padding:1.6rem;border-radius:4px;box-shadow:0 3px 12px rgba(0,0,0,.04);border-left:4px solid var(--gold)}
 .edu-block h4{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--primary);margin-bottom:.6rem;font-weight:600}
 .edu-block p{font-size:.88rem;color:#666;margin-bottom:.3rem}
-.certs-box{background:white;padding:2rem;border-radius:4px;box-shadow:0 3px 12px rgba(0,0,0,.04);margin-top:1.5rem}
+.certs-box{background:white;padding:1.5rem;border-radius:4px;box-shadow:0 3px 12px rgba(0,0,0,.04);margin-top:1.2rem}
 .certs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.6rem;margin-top:1rem}
 .cert-item{font-size:.83rem;color:#8a837d;padding:.6rem .9rem;border-left:2px solid var(--gold);line-height:1.75}
 .cert-item strong{color:var(--slate);font-size:.89rem}
@@ -396,14 +408,14 @@ h1 em{color:var(--primary);font-style:italic}
 
 .contact-section{
   background:var(--dark);color:var(--cream);
-  max-width:none;margin:5rem 0 0;border-radius:0;
-  padding-top:5rem;padding-bottom:5rem;
+  max-width:none;margin:3rem 0 0;border-radius:0;
+  padding-top:3.5rem;padding-bottom:3.5rem;
   padding-left:calc(max(0px, (100% - 1400px) / 2) + 5%);
   padding-right:calc(max(0px, (100% - 1400px) / 2) + 5%);
 }
 .contact-section h2{color:var(--cream)}
 .contact-section h2::before{background:var(--gold)}
-.contact-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1.9rem;margin-top:2.5rem}
+.contact-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1.9rem;margin-top:1.8rem}
 @media(max-width:1250px){.contact-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:2.2rem}}
 @media(max-width:1100px){.contact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:820px){.contact-grid{grid-template-columns:1fr;gap:1.8rem}}
@@ -435,11 +447,39 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
   nav .nav-cta{margin-top:1.1rem;text-align:center}
   /* full-bleed negative margin pushed this wider than the viewport */
   .contact-section{margin-left:0;margin-right:0;padding-left:5%;padding-right:5%}
+  section{padding:1.9rem 5%}
+  section:first-of-type{margin-top:76px}
+  h2{font-size:1.7rem;margin-bottom:.7rem;padding-bottom:.5rem}
+  .h2-sub{margin-top:1.3rem}
+  .sec-lede{margin-bottom:1rem;font-size:.9rem}
+  /* three CTAs wrap to two rows on a phone; centring both rows reads as
+     deliberate, where left-aligned leaves Download CV stranded */
+  .cta-group{justify-content:center;gap:.7rem;margin-top:1.4rem}
+  .pdf-area{padding:.9rem 0}
+  .projects-container{gap:1.2rem;margin-top:1.4rem}
+  .project-card{padding:1.15rem}
+  .project-stats{gap:.9rem;padding:1rem 0;margin:1rem 0}
+  .project-files{gap:.6rem;margin-top:1rem;padding-top:1rem}
+  .exp-list{margin-top:1.3rem}
+  .exp-item{padding:1.1rem 0}
+  .focus-card{padding:1.25rem}
+  .focus-grid{gap:.9rem;margin-top:1.3rem}
+  .ref-grid{gap:1rem;margin-top:1.3rem}
+  .ref-card{padding:1.5rem 1.4rem 1.2rem}
+  .mindmap{gap:1rem;margin-top:1.3rem}
+  .skill-cat{padding:1.35rem}
+  .edu-grid{gap:1rem}
+  .edu-block{padding:1.35rem}
+  .certs-box{padding:1.2rem}
+  .lang-grid{gap:.8rem;margin-top:1.2rem}
+  .globe-stage{gap:1.8rem}
+  .value-prop{padding:1.2rem;margin:1.2rem 0}
+  .dash-wrap{margin-top:1.2rem}
   h1{font-size:2.1rem}
   .edu-grid{grid-template-columns:1fr}
-  .contact-section{padding:3rem 5%}
-  .paper-header{flex-direction:column;align-items:flex-start}
-  .pdf-area embed{width:100%;height:600px}
+  .contact-section{margin-top:1.5rem;padding:2.2rem 5%}
+  .paper-header{flex-direction:column;align-items:flex-start;gap:.9rem;padding:1.2rem 1.3rem}
+  .pdf-area embed{width:100%;height:460px}
 }
 </style>
 </head>
@@ -463,7 +503,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
   <div>
     <div class="role-badge">Finance · Geopolitical Risk · Strategic Advisory</div>
     <h1>Financial analysis with a <em>geopolitical</em> lens.</h1>
-    <div class="value-prop">I am looking for work in economic intelligence or strategic advisory. What holds my attention is the point where a valuation runs into a political fact: a reconstruction fund, a sovereign investor, a shipping route that stops working.</div>
+    <div class="value-prop">I am looking for work in economic intelligence or strategic advisory. What interests me is what politics does to a number.</div>
     <p style="font-size:.93rem;color:#666;line-height:1.8;">Final year at EHL Lausanne, graduating 2027. I build financial models and I write about political risk. Triple national (US, French, Swedish), raised across eight countries, currently splitting time between Lausanne and Paris.</p>
     <div class="cta-group">
       <a href="#projects">See the work</a>
@@ -478,9 +518,9 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
 
 <section id="experience">
   <h2>Experience</h2>
-  <p style="max-width:820px;color:#666;margin-bottom:0;font-size:.95rem;">Four placements across
-  Paris, Lausanne and Singapore, plus two years running campus safety operations. Dates and scope
-  match the CV.</p>
+  <p style="max-width:820px;color:#666;margin-bottom:0;font-size:.95rem;">I have worked in Paris,
+  Lausanne and Singapore, and for two years I worked as staff at my school
+  (École hôtelière de Lausanne).</p>
   <div class="exp-list">
 
     <div class="exp-item exp-current">
@@ -492,8 +532,9 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div>
         <div class="exp-role">Supervisor</div>
         <ul>
-          <li>Supervise student teams covering event safety and incident response on campus.</li>
-          <li>Brief and staff shifts, and escalate to EHL Safety &amp; Security.</li>
+          <li>Supervise a team of 15+ students on event safety and incident response, across
+          60+ events a year.</li>
+          <li>Staff and brief shifts, and coordinate with EHL Security.</li>
         </ul>
       </div>
     </div>
@@ -507,14 +548,11 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div>
         <div class="exp-role">CRM &amp; Stakeholder Operations Intern</div>
         <ul>
-          <li>Coordinated stakeholder data flows supporting the Future Investment Initiative, an
-          event of more than 10,000 participants.</li>
-          <li>Researched and profiled institutional stakeholders and corporate actors ahead of the
-          forum, with direct exposure to Gulf sovereign capital.</li>
-          <li>Consolidated executive-level data flows across Excel, Salesforce, Airtable and
-          FileMaker Pro.</li>
-          <li>Ran real-time information management in a high-pressure multinational event
-          environment.</li>
+          <li>Ran the stakeholder data for the Future Investment Initiative, a forum of over
+          10,000 people.</li>
+          <li>Researched and profiled the institutions and companies attending, Gulf sovereign
+          funds among them.</li>
+          <li>Pulled four systems into one workflow: Excel, Salesforce, Airtable, FileMaker Pro.</li>
         </ul>
       </div>
     </div>
@@ -528,9 +566,9 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div>
         <div class="exp-role">F&amp;B Operations Associate, Major International Events</div>
         <ul>
-          <li>Ran service execution through the Paris Olympic Games and Fashion Week.</li>
-          <li>Coordinated cross-functional teams in high-volume, time-sensitive settings.</li>
-          <li>Handled high-profile international clientele under premium service standards.</li>
+          <li>Worked the floor through the Paris Olympics and Fashion Week.</li>
+          <li>Coordinated teams across departments at full capacity.</li>
+          <li>Looked after VIP guests.</li>
         </ul>
       </div>
     </div>
@@ -544,8 +582,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div>
         <div class="exp-role">Event Operations Assistant</div>
         <ul>
-          <li>Planned logistics and ran on-site execution for corporate and hospitality events.</li>
-          <li>Delivered against tight turnaround timelines across multiple venues.</li>
+          <li>Planned and ran corporate and hospitality events on site, across several venues.</li>
         </ul>
       </div>
     </div>
@@ -559,11 +596,10 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div>
         <div class="exp-role">Front Office &amp; Guest Operations Assistant</div>
         <ul>
-          <li>Ran front-office workflow and interdepartmental communication in a luxury
-          environment.</li>
-          <li>Managed international guest interactions in English and French.</li>
-          <li>Worked across 15 department teams, which is where the Southeast Asia reading in the
-          geopolitics section started.</li>
+          <li>Ran front-desk operations and coordination between departments.</li>
+          <li>Handled international guests in English, German and French.</li>
+          <li>Worked across 15 departments. Living in Singapore is where my interest in the
+          region started.</li>
         </ul>
       </div>
     </div>
@@ -573,7 +609,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
 
 <section id="projects">
   <h2>What I've Delivered</h2>
-  <p style="max-width:820px;color:#666;margin-bottom:3rem;font-size:.95rem;">Five projects, with the models and the papers that came out of them.</p>
+  <p class="sec-lede">Five projects, with the models and the papers that came out of them.</p>
   <div class="projects-container">
 
     <div class="project-card">
@@ -581,7 +617,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
         <div><div class="project-tag">Corporate Finance · Equity Analysis</div><h3>Deere &amp; Company: Integrated Financial Diagnostic</h3></div>
         <div class="project-meta">EHL · Grade 6/6</div>
       </div>
-      <p class="project-desc">Seven-sheet integrated Excel model covering income statement reconstruction, vertical and horizontal analysis, liquidity assessment, CAPM-based cost of capital, and a full shareholder value creation framework. Eight audit checks recompute live on every change, and all eight pass.</p>
+      <p class="project-desc">A live Excel model of Deere's accounts, seven sheets. It rebuilds the income statement, works out what the company's capital costs, and tests whether the business beat that cost.</p>
       <div class="project-skills">
         <span class="skill-tag">CAPM / WACC</span><span class="skill-tag">NOPAT</span><span class="skill-tag">TSR Analysis</span><span class="skill-tag">Vertical &amp; Horizontal</span><span class="skill-tag">Liquidity Ratios</span>
       </div>
@@ -600,7 +636,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
         <div><div class="project-tag">Corporate Finance · Econometrics</div><h3>Monday Effect: FTSE MIB Anomaly Study</h3></div>
         <div class="project-meta">EHL · Academic</div>
       </div>
-      <p class="project-desc">Empirical OLS regression testing the Monday Effect anomaly in Italian equity markets. Sourced 15 years of FTSE MIB daily data from LSEG Refinitiv, cleaned holiday carry-forward errors, ran day-of-week dummy regressions. Effect attenuated to near-zero by 2020–2025.</p>
+      <p class="project-desc">I tested whether Monday returns on the Italian stock market are worse than other days, using 15 years of data. They used to be. Since 2020 the effect has all but gone.</p>
       <div class="project-stats">
         <div><div class="stat-value">15 yr</div><div class="stat-label">Data Period</div></div>
         <div><div class="stat-value">OLS</div><div class="stat-label">Methodology</div></div>
@@ -620,7 +656,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
         <div><div class="project-tag">Real Estate Finance · DCF</div><h3>Westin Las Vegas: OEREF Acquisition Analysis</h3></div>
         <div class="project-meta">EHL · Academic</div>
       </div>
-      <p class="project-desc">10-year Excel DCF model for a hypothetical Open-End Real Estate Fund acquisition. Three LTV scenarios (20/30/40%), interest-only debt structure, unleveraged vs leveraged equity return analysis against a 4% minimum hurdle rate.</p>
+      <p class="project-desc">What a property fund should pay for the Westin Las Vegas. A ten-year cash flow forecast, tested at three levels of borrowing, against a 4% minimum return.</p>
       <div class="project-skills">
         <span class="skill-tag">DCF Valuation</span><span class="skill-tag">OEREF Structure</span><span class="skill-tag">LTV Scenarios</span><span class="skill-tag">Revenue Forecasting</span>
       </div>
@@ -639,7 +675,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
         <div><div class="project-tag">Hotel Asset Management · LCR</div><h3>Leonardo Royal Munich: Lifecycle Capital Strategy</h3></div>
         <div class="project-meta">EHL · Academic</div>
       </div>
-      <p class="project-desc">Lifecycle Capital Replacement strategy for a full-service upscale Munich hotel under Invesco as landlord. Asset condition analysis, CAPEX prioritisation, phased restoration scheduling, and Marriott Autograph rebrand alignment. Authored the financial modelling section.</p>
+      <p class="project-desc">A capital plan for a Munich hotel owned by Invesco. We costed the repairs, ranked them by return, phased the spending and matched it to a Marriott rebrand.</p>
       <div class="project-skills">
         <span class="skill-tag">LCR Strategy</span><span class="skill-tag">CAPEX Planning</span><span class="skill-tag">Asset Management</span><span class="skill-tag">Financial Modelling</span>
       </div>
@@ -658,7 +694,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
         <div><div class="project-tag">Geopolitical Research</div><h3>Hospitality Related Investments in Post-Conflict Reconstruction</h3></div>
         <div class="project-meta">EHL · Research Paper · 2026</div>
       </div>
-      <p class="project-desc">Strategic framework for hospitality investment in post-conflict reconstruction. Primary case: Ukraine's agri-food and logistics opportunity. Analyses EBRD, EU Facility, DFC financing mechanisms, structured risk matrix, and entry strategies anchored in Marshall Plan and post-Soviet Poland analogues.</p>
+      <p class="project-desc">Where hotel money should go once a war ends, with Ukraine as the case. Who funds it, what can go wrong, and when to move. Measured against the Marshall Plan and post-Soviet Poland.</p>
       <div class="project-stats">
         <div><div class="stat-value">$486B</div><div class="stat-label">Reconstruction Needs</div></div>
         <div><div class="stat-value">60%+</div><div class="stat-label">Wheat Price Spike</div></div>
@@ -678,7 +714,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
 
 <section id="geopolitics">
   <h2>Geopolitical Focus</h2>
-  <p style="max-width:820px;color:#666;font-size:.95rem;margin-bottom:2.5rem;">Eight countries lived in, twenty-eight visited. The globe spins on its own; drag it to look around.</p>
+  <p class="sec-lede">Eight countries lived in, twenty-eight visited. The globe spins on its own; drag it to look around.</p>
 
   <div class="globe-stage">
     <div class="globe-wrap" id="mapWrap">
@@ -707,15 +743,15 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
     </div>
   </div>
 
-  <h2 style="margin-top:4rem">Five Focus Areas</h2>
+  <h2 class="h2-sub">Five Focus Areas</h2>
   <div class="focus-grid">
     <div class="focus-card" role="button" tabindex="0" aria-expanded="false" onclick="toggleFocus(this)" onkeydown="focusKey(event,this)">
       <div class="focus-number">01</div><div class="focus-title">Eastern European Theatre</div>
       <div class="focus-teaser">Ukraine-Russia conflict · NATO posture · energy security</div>
       <div class="focus-details"><div class="focus-detail-inner">
-        <strong>What I track:</strong> Ukraine-Russia war dynamics, NATO eastern flank, sanctions architecture, post-conflict reconstruction economics.<br><br>
-        <strong>The stakes:</strong> A structural shock that is still reshaping European security, capital flows and commodity markets, and with them hospitality supply chains.<br><br>
-        <strong>My exposure:</strong> Research paper on post-conflict reconstruction. Financing vehicles, risk mitigation, first-mover entry strategies.
+        <strong>What I track:</strong> Ukraine and Russia, NATO's eastern flank, sanctions, and what reconstruction will cost.<br><br>
+        <strong>Why it matters:</strong> The war reset European security, capital flows and commodity prices, and it is not over.<br><br>
+        <strong>What I have done:</strong> Wrote a research paper on how post-war reconstruction gets financed.
       </div></div>
       <div class="focus-expand">▸ Read more</div>
     </div>
@@ -723,9 +759,9 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div class="focus-number">02</div><div class="focus-title">Middle East &amp; Gulf</div>
       <div class="focus-teaser">Sovereign wealth · petrodollar dynamics · regional conflict</div>
       <div class="focus-details"><div class="focus-detail-inner">
-        <strong>What I track:</strong> SWF allocation (PIF, ADIA, QIA), Saudi-UAE competition, petrodollar recycling, Vision 2030 diversification.<br><br>
-        <strong>The stakes:</strong> Primary global capital allocation hub. Essential for anyone working in international finance or strategic advisory.<br><br>
-        <strong>My exposure:</strong> Stakeholder profiling at the Future Investment Initiative, an event of over 10,000 participants, with direct exposure to Gulf sovereign capital.
+        <strong>What I track:</strong> Where the Gulf funds put their money: PIF, ADIA, QIA. Saudi and UAE rivalry. Vision 2030.<br><br>
+        <strong>Why it matters:</strong> These funds move more money than most governments. In finance you end up dealing with them.<br><br>
+        <strong>What I have done:</strong> Profiled stakeholders for the Future Investment Initiative, a forum of over 10,000 people.
       </div></div>
       <div class="focus-expand">▸ Read more</div>
     </div>
@@ -733,9 +769,9 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div class="focus-number">03</div><div class="focus-title">European Union</div>
       <div class="focus-teaser">Strategic autonomy · industrial policy · regulatory impact</div>
       <div class="focus-details"><div class="focus-detail-inner">
-        <strong>What I track:</strong> EU strategic autonomy, industrial policy instruments, Ukraine and Western Balkans accession, cohesion fund allocation.<br><br>
-        <strong>The stakes:</strong> Primary institutional context for European business. EU regulatory changes directly affect investment decisions across every sector.<br><br>
-        <strong>My exposure:</strong> EU candidate status dynamics central to Ukraine research paper.
+        <strong>What I track:</strong> EU strategic autonomy, industrial policy, enlargement to Ukraine and the Balkans, cohesion funds.<br><br>
+        <strong>Why it matters:</strong> EU rules set the terms for anyone investing in Europe.<br><br>
+        <strong>What I have done:</strong> EU accession is central to my Ukraine paper.
       </div></div>
       <div class="focus-expand">▸ Read more</div>
     </div>
@@ -743,9 +779,9 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div class="focus-number">04</div><div class="focus-title">Central America</div>
       <div class="focus-teaser">Fragile states · narco-economics · political instability</div>
       <div class="focus-details"><div class="focus-detail-inner">
-        <strong>What I track:</strong> Criminal economy structures, narcotics trade, remittance dependency, US engagement patterns, failed-state dynamics.<br><br>
-        <strong>The stakes:</strong> Understanding economies under institutional failure is critical for risk assessment and reconstruction models.<br><br>
-        <strong>My exposure:</strong> An analytical frame for governance risk that carries over to emerging and frontier markets.
+        <strong>What I track:</strong> Criminal economies, the drug trade, remittances, and how states fail.<br><br>
+        <strong>Why it matters:</strong> It is the clearest case of what happens to an economy when institutions stop working.<br><br>
+        <strong>What I have done:</strong> Reading only, so far. It is the frame I use for governance risk elsewhere.
       </div></div>
       <div class="focus-expand">▸ Read more</div>
     </div>
@@ -753,15 +789,15 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
       <div class="focus-number">05</div><div class="focus-title">Southeast Asia</div>
       <div class="focus-teaser">China-US competition · ASEAN alignment · supply chains</div>
       <div class="focus-details"><div class="focus-detail-inner">
-        <strong>What I track:</strong> ASEAN strategic alignment, China-US decoupling, supply-chain repositioning (China+1), regional trade architecture.<br><br>
-        <strong>The stakes:</strong> Critical node in global manufacturing and trade networks undergoing rapid structural change.<br><br>
-        <strong>My exposure:</strong> Seven months at Shangri-La Singapore gave me operational and cultural footing in the region.
+        <strong>What I track:</strong> ASEAN, US and China decoupling, supply chains moving out of China, regional trade deals.<br><br>
+        <strong>Why it matters:</strong> A large share of what the world makes passes through here, and the map is being redrawn.<br><br>
+        <strong>What I have done:</strong> Seven months at Shangri-La Singapore, including the IISS Shangri-La Dialogue, looking after guests.
       </div></div>
       <div class="focus-expand">▸ Read more</div>
     </div>
   </div>
 
-  <div style="margin-top:5rem" id="paperSection">
+  <div style="margin-top:3rem" id="paperSection">
     <h2>Featured Research Paper</h2>
     <div class="paper-wrapper">
       <div class="paper-header">
@@ -783,7 +819,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
 
 <section id="references">
   <h2>References</h2>
-  <p style="max-width:820px;color:#666;font-size:.95rem;margin-bottom:.5rem;">Three letters from EHL faculty and staff. Each one is reproduced in full.</p>
+  <p style="max-width:820px;color:#666;font-size:.95rem;margin-bottom:.5rem;">Three letters from EHL faculty and staff, reproduced in full.</p>
   <div class="ref-grid">
     <figure class="ref-card">
       <div class="ref-mark">&ldquo;</div>
@@ -849,7 +885,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
 
 <section id="skills">
   <h2>Core Capabilities</h2>
-  <p style="max-width:820px;color:#666;font-size:.93rem;margin-bottom:2.5rem;">What I can do, and the tools I use to do it.</p>
+  <p class="sec-lede">What I can do, and the tools I use to do it.</p>
   <div class="mindmap">
     <div class="skill-cat"><h4>Finance &amp; Valuation</h4><ul>
       <li>DCF modelling &amp; asset valuation</li><li>P&amp;L and operating projections</li>
@@ -877,7 +913,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
     </ul></div>
   </div>
 
-  <h2 style="margin-top:4rem">Languages</h2>
+  <h2 class="h2-sub">Languages</h2>
   <div class="lang-grid">
     <div class="lang-card"><div class="lang-name">French</div><div class="lang-level">C2</div><div class="lang-desc">Native / Fluent</div></div>
     <div class="lang-card"><div class="lang-name">English</div><div class="lang-level">C2</div><div class="lang-desc">Native / Fluent</div></div>
@@ -885,7 +921,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
     <div class="lang-card"><div class="lang-name">Spanish</div><div class="lang-level">B1</div><div class="lang-desc">Intermediate</div></div>
   </div>
 
-  <h2 style="margin-top:4rem">Courses &amp; Certificates</h2>
+  <h2 class="h2-sub">Courses &amp; Certificates</h2>
   <div class="certs-box">
     <div class="certs-grid">
       <div class="cert-item">
@@ -903,7 +939,7 @@ footer{background:#1A1A1A;color:rgba(255,255,255,.4);padding:1.5rem 5%;text-alig
     </div>
   </div>
 
-  <h2 style="margin-top:4rem">Education</h2>
+  <h2 class="h2-sub">Education</h2>
   <div class="edu-grid">
     <div class="edu-block">
       <h4>EHL Hospitality Business School</h4>
